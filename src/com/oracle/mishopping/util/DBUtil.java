@@ -24,8 +24,6 @@ public class DBUtil {
      * 获的c3p0对象
      */
     public static DataSource getDataSource(){
-        Properties properties = ds.getProperties();
-        System.out.println(properties);
         return ds;
     }
 }

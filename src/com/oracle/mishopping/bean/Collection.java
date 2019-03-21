@@ -1,4 +1,4 @@
-package com.sample;
+package com.oracle.mishopping.bean;
 
 
 public class Collection {
