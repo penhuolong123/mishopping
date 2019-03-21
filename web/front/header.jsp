@@ -1,16 +1,4 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: yyz
-  Date: 2019/3/17
-  Time: 14:58
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <title>Title</title>
-</head>
-<body>
 <!-- start header -->
 <header>
     <div class="top center">
@@ -87,7 +75,3 @@
     </div>
 </div>
 <!-- end banner_x -->
-
-
-</body>
-</html>
