@@ -10,7 +10,7 @@ public class Products {
   private String pdes;
   private String pimg;
   private long pstate;
-  private long catagoryid;
+  private long categoryid;
   private double ppricediscount;
 
 
@@ -77,12 +77,12 @@ public class Products {
   }
 
 
-  public long getCatagoryid() {
-    return catagoryid;
+  public long getCategoryid() {
+    return categoryid;
   }
 
-  public void setCatagoryid(long catagoryid) {
-    this.catagoryid = catagoryid;
+  public void setCategoryid(long categoryid) {
+    this.categoryid = categoryid;
   }
 
 
