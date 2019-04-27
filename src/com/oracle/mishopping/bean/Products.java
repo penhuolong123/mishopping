@@ -13,6 +13,20 @@ public class Products {
   private long categoryid;
   private double ppricediscount;
 
+  public Products() {
+  }
+
+  public Products(long pid, String pname, double pprice, long pstock, String pdes, String pimg, long pstate, long categoryid, double ppricediscount) {
+    this.pid = pid;
+    this.pname = pname;
+    this.pprice = pprice;
+    this.pstock = pstock;
+    this.pdes = pdes;
+    this.pimg = pimg;
+    this.pstate = pstate;
+    this.categoryid = categoryid;
+    this.ppricediscount = ppricediscount;
+  }
 
   public long getPid() {
     return pid;
@@ -94,4 +108,18 @@ public class Products {
     this.ppricediscount = ppricediscount;
   }
 
+  @Override
+  public String toString() {
+    return "Products{" +
+            "pid=" + pid +
+            ", pname='" + pname + '\'' +
+            ", pprice=" + pprice +
+            ", pstock=" + pstock +
+            ", pdes='" + pdes + '\'' +
+            ", pimg='" + pimg + '\'' +
+            ", pstate=" + pstate +
+            ", categoryid=" + categoryid +
+            ", ppricediscount=" + ppricediscount +
+            '}';
+  }
 }

@@ -27,7 +27,7 @@
             </ul>
         </div>
         <div class="right fr">
-            <div class="gouwuche fr"><a href="">购物车</a></div>
+            <div class="gouwuche fr"><a href="../front/gouwuche.jsp">购物车</a></div>
             <div class="fr">
                 <ul>
                     <li><a href="login.jsp" target="_blank">登录</a></li>
