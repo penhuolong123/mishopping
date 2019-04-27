@@ -36,7 +36,7 @@
 					</ul>
 				</div>
 				<div class="right fr">
-					<div class="gouwuche fr"><a href="">购物车</a></div>
+					<div class="gouwuche fr"><a href="../front/gouwuche.jsp">购物车</a></div>
 					<div class="fr">
 						<ul>
 							<li><a href="login.jsp" target="_blank">登录</a></li>
@@ -152,7 +152,7 @@
 			<div class="xiadan ml20 mt20">
 					<input class="jrgwc"  type="button" name="jrgwc" value="立即选购" />
 					<input class="jrgwc" type="button" name="jrgwc" value="加入购物车" />
-				
+				<a href="/CartController?method=add&pid=1010">购物车</a>
 			</div>
 		</div>
 		<div class="clear"></div>
